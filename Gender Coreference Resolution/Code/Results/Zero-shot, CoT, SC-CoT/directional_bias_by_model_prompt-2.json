@@ -1,0 +1,42 @@
+{
+  "llama3": {
+    "cot": {
+      "male_predictions": 25,
+      "female_predictions": 62,
+      "male_bias_ratio": 0.2874,
+      "female_bias_ratio": 0.7126
+    },
+    "cot_sc": {
+      "male_predictions": 48,
+      "female_predictions": 52,
+      "male_bias_ratio": 0.48,
+      "female_bias_ratio": 0.52
+    },
+    "zero_shot": {
+      "male_predictions": 40,
+      "female_predictions": 64,
+      "male_bias_ratio": 0.3846,
+      "female_bias_ratio": 0.6154
+    }
+  },
+  "mistral": {
+    "cot": {
+      "male_predictions": 20,
+      "female_predictions": 10,
+      "male_bias_ratio": 0.6667,
+      "female_bias_ratio": 0.3333
+    },
+    "cot_sc": {
+      "male_predictions": 25,
+      "female_predictions": 10,
+      "male_bias_ratio": 0.7143,
+      "female_bias_ratio": 0.2857
+    },
+    "zero_shot": {
+      "male_predictions": 17,
+      "female_predictions": 6,
+      "male_bias_ratio": 0.7391,
+      "female_bias_ratio": 0.2609
+    }
+  }
+}

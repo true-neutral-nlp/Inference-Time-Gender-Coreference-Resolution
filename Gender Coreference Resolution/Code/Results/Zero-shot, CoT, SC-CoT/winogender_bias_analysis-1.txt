@@ -1,0 +1,104 @@
+
+=== Model: llama3 ===
+
+-- Prompt Type: zero_shot --
+Total: 120
+Neutral: 4, Male: 43, Female: 69, Unknown: 4
+Accuracy (Neutral): 0.03
+Male Bias: 0.36
+Female Bias: 0.57
+
+-- Prompt Type: cot --
+Total: 120
+Neutral: 27, Male: 28, Female: 63, Unknown: 2
+Accuracy (Neutral): 0.23
+Male Bias: 0.23
+Female Bias: 0.53
+
+-- Prompt Type: cot_sc --
+Total: 120
+Neutral: 23, Male: 43, Female: 54, Unknown: 0
+Accuracy (Neutral): 0.19
+Male Bias: 0.36
+Female Bias: 0.45
+
+=== Model: mistral ===
+
+-- Prompt Type: zero_shot --
+Total: 120
+Neutral: 58, Male: 12, Female: 8, Unknown: 42
+Accuracy (Neutral): 0.48
+Male Bias: 0.10
+Female Bias: 0.07
+
+-- Prompt Type: cot --
+Total: 120
+Neutral: 57, Male: 19, Female: 11, Unknown: 33
+Accuracy (Neutral): 0.47
+Male Bias: 0.16
+Female Bias: 0.09
+
+-- Prompt Type: cot_sc --
+Total: 120
+Neutral: 72, Male: 31, Female: 7, Unknown: 10
+Accuracy (Neutral): 0.60
+Male Bias: 0.26
+Female Bias: 0.06
+
+
+=== Occupation-wise Pronoun Distribution ===
+Customer             → Total: 48, Neutral: 23, Male: 9, Female: 15, Unknown: 1 => Dominant: neutral
+Homeowner            → Total: 24, Neutral: 7, Male: 10, Female: 3, Unknown: 4 => Dominant: male
+Undergraduate        → Total: 24, Neutral: 8, Male: 4, Female: 10, Unknown: 2 => Dominant: female
+Student              → Total: 24, Neutral: 11, Male: 3, Female: 8, Unknown: 2 => Dominant: neutral
+Patient              → Total: 18, Neutral: 3, Male: 4, Female: 6, Unknown: 5 => Dominant: female
+Technician           → Total: 12, Neutral: 9, Male: 1, Female: 1, Unknown: 1 => Dominant: neutral
+Taxpayer             → Total: 12, Neutral: 5, Male: 4, Female: 2, Unknown: 1 => Dominant: neutral
+Engineer             → Total: 12, Neutral: 9, Male: 2, Female: 0, Unknown: 1 => Dominant: neutral
+Worker               → Total: 12, Neutral: 7, Male: 3, Female: 1, Unknown: 1 => Dominant: neutral
+Educator             → Total: 12, Neutral: 5, Male: 0, Female: 6, Unknown: 1 => Dominant: female
+Clerk                → Total: 12, Neutral: 6, Male: 2, Female: 3, Unknown: 1 => Dominant: neutral
+Mechanic             → Total: 12, Neutral: 5, Male: 5, Female: 0, Unknown: 2 => Dominant: neutral
+Teenager             → Total: 12, Neutral: 6, Male: 0, Female: 6, Unknown: 0 => Dominant: neutral
+Visitor              → Total: 12, Neutral: 5, Male: 2, Female: 4, Unknown: 1 => Dominant: neutral
+Librarian            → Total: 12, Neutral: 0, Male: 0, Female: 9, Unknown: 3 => Dominant: female
+Advisor              → Total: 12, Neutral: 3, Male: 0, Female: 6, Unknown: 3 => Dominant: female
+Pharmacist           → Total: 12, Neutral: 2, Male: 2, Female: 4, Unknown: 4 => Dominant: female
+Janitor              → Total: 12, Neutral: 1, Male: 8, Female: 0, Unknown: 3 => Dominant: male
+Psychologist         → Total: 12, Neutral: 6, Male: 0, Female: 4, Unknown: 2 => Dominant: neutral
+Physician            → Total: 12, Neutral: 4, Male: 6, Female: 2, Unknown: 0 => Dominant: male
+Carpenter            → Total: 12, Neutral: 1, Male: 8, Female: 0, Unknown: 3 => Dominant: male
+Nurse                → Total: 12, Neutral: 4, Male: 4, Female: 3, Unknown: 1 => Dominant: neutral
+Investigator         → Total: 12, Neutral: 4, Male: 3, Female: 4, Unknown: 1 => Dominant: neutral
+Electrician          → Total: 12, Neutral: 4, Male: 7, Female: 0, Unknown: 1 => Dominant: male
+Officer              → Total: 12, Neutral: 1, Male: 10, Female: 0, Unknown: 1 => Dominant: male
+Pathologist          → Total: 12, Neutral: 1, Male: 6, Female: 1, Unknown: 4 => Dominant: male
+Lawyer               → Total: 12, Neutral: 0, Male: 5, Female: 4, Unknown: 3 => Dominant: male
+Planner              → Total: 12, Neutral: 5, Male: 1, Female: 3, Unknown: 3 => Dominant: neutral
+Practitioner         → Total: 12, Neutral: 4, Male: 2, Female: 5, Unknown: 1 => Dominant: female
+Instructor           → Total: 12, Neutral: 5, Male: 3, Female: 4, Unknown: 0 => Dominant: neutral
+Surgeon              → Total: 12, Neutral: 2, Male: 3, Female: 3, Unknown: 4 => Dominant: unknown
+Veterinarian         → Total: 12, Neutral: 1, Male: 3, Female: 6, Unknown: 2 => Dominant: female
+Paramedic            → Total: 12, Neutral: 4, Male: 6, Female: 0, Unknown: 2 => Dominant: male
+Examiner             → Total: 12, Neutral: 1, Male: 5, Female: 1, Unknown: 5 => Dominant: male
+Chemist              → Total: 12, Neutral: 7, Male: 3, Female: 1, Unknown: 1 => Dominant: neutral
+Machinist            → Total: 12, Neutral: 5, Male: 4, Female: 1, Unknown: 2 => Dominant: neutral
+Appraiser            → Total: 12, Neutral: 2, Male: 2, Female: 3, Unknown: 5 => Dominant: unknown
+Nutritionist         → Total: 12, Neutral: 4, Male: 0, Female: 8, Unknown: 0 => Dominant: female
+Hairdresser          → Total: 12, Neutral: 0, Male: 0, Female: 12, Unknown: 0 => Dominant: female
+Programmer           → Total: 12, Neutral: 7, Male: 0, Female: 5, Unknown: 0 => Dominant: neutral
+Paralegal            → Total: 12, Neutral: 6, Male: 1, Female: 5, Unknown: 0 => Dominant: neutral
+Hygienist            → Total: 12, Neutral: 3, Male: 3, Female: 4, Unknown: 2 => Dominant: female
+Bystander            → Total: 12, Neutral: 7, Male: 1, Female: 3, Unknown: 1 => Dominant: neutral
+Cashier              → Total: 12, Neutral: 3, Male: 1, Female: 6, Unknown: 2 => Dominant: female
+Auditor              → Total: 12, Neutral: 5, Male: 5, Female: 0, Unknown: 2 => Dominant: neutral
+Dietitian            → Total: 12, Neutral: 1, Male: 0, Female: 11, Unknown: 0 => Dominant: female
+Painter              → Total: 12, Neutral: 4, Male: 3, Female: 5, Unknown: 0 => Dominant: female
+Broker               → Total: 12, Neutral: 6, Male: 1, Female: 5, Unknown: 0 => Dominant: neutral
+Chef                 → Total: 12, Neutral: 5, Male: 2, Female: 5, Unknown: 0 => Dominant: neutral
+Doctor               → Total: 12, Neutral: 5, Male: 4, Female: 1, Unknown: 2 => Dominant: neutral
+Firefighter          → Total: 12, Neutral: 1, Male: 8, Female: 1, Unknown: 2 => Dominant: male
+Secretary            → Total: 12, Neutral: 2, Male: 1, Female: 9, Unknown: 0 => Dominant: female
+Supervisor           → Total: 6, Neutral: 3, Male: 1, Female: 2, Unknown: 0 => Dominant: neutral
+Employee             → Total: 6, Neutral: 2, Male: 2, Female: 1, Unknown: 1 => Dominant: neutral
+Counselor            → Total: 6, Neutral: 1, Male: 3, Female: 0, Unknown: 2 => Dominant: male

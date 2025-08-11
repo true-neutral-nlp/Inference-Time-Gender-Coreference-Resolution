@@ -1,0 +1,34 @@
+Model: llama3
+  Prompt: zero_shot
+    Male Predictions   : 43
+    Female Predictions : 69
+    Male Bias Ratio    : 0.3839
+    Female Bias Ratio  : 0.6161
+  Prompt: cot
+    Male Predictions   : 28
+    Female Predictions : 63
+    Male Bias Ratio    : 0.3077
+    Female Bias Ratio  : 0.6923
+  Prompt: cot_sc
+    Male Predictions   : 43
+    Female Predictions : 54
+    Male Bias Ratio    : 0.4433
+    Female Bias Ratio  : 0.5567
+
+Model: mistral
+  Prompt: cot
+    Male Predictions   : 19
+    Female Predictions : 11
+    Male Bias Ratio    : 0.6333
+    Female Bias Ratio  : 0.3667
+  Prompt: cot_sc
+    Male Predictions   : 31
+    Female Predictions : 7
+    Male Bias Ratio    : 0.8158
+    Female Bias Ratio  : 0.1842
+  Prompt: zero_shot
+    Male Predictions   : 12
+    Female Predictions : 8
+    Male Bias Ratio    : 0.6
+    Female Bias Ratio  : 0.4
+

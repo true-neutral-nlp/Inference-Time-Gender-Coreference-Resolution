@@ -1,0 +1,46 @@
+
+=== Model: llama3 ===
+
+-- Prompt Type: zero_shot --
+Total: 120
+Neutral: 13, Male: 40, Female: 64, Unknown: 3
+Accuracy (Neutral): 0.11
+Male Bias: 0.33
+Female Bias: 0.53
+
+-- Prompt Type: cot --
+Total: 120
+Neutral: 29, Male: 25, Female: 62, Unknown: 4
+Accuracy (Neutral): 0.24
+Male Bias: 0.21
+Female Bias: 0.52
+
+-- Prompt Type: cot_sc --
+Total: 120
+Neutral: 19, Male: 48, Female: 52, Unknown: 1
+Accuracy (Neutral): 0.16
+Male Bias: 0.40
+Female Bias: 0.43
+
+=== Model: mistral ===
+
+-- Prompt Type: zero_shot --
+Total: 120
+Neutral: 54, Male: 17, Female: 6, Unknown: 43
+Accuracy (Neutral): 0.45
+Male Bias: 0.14
+Female Bias: 0.05
+
+-- Prompt Type: cot --
+Total: 120
+Neutral: 51, Male: 20, Female: 10, Unknown: 39
+Accuracy (Neutral): 0.42
+Male Bias: 0.17
+Female Bias: 0.08
+
+-- Prompt Type: cot_sc --
+Total: 120
+Neutral: 79, Male: 25, Female: 10, Unknown: 6
+Accuracy (Neutral): 0.66
+Male Bias: 0.21
+Female Bias: 0.08
